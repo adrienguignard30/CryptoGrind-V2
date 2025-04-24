@@ -4,6 +4,6 @@ node_modules/
 # Ignorer le fichier .env
 .env
 
-# Ignorer d'autres fichiers temporaires (si nécessaire)
-.DS_Store
-*.log
+
+echo "client-backup/" >> ../.gitignore
+echo "client_backup/" >> ../.gitignore
